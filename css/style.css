@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.first {
+    display: block;
+    height: 500px;
+    background: linear-gradient(90deg, rgba(204,207,209,1) 0%, rgba(110,119,124,1) 53%, rgba(1,70,96,1) 100%);
+    padding-top: 200px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.first_descr {
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+.first_btn {
+    background:    #000000;
+    border-radius: 11px;
+    box-shadow:    0 1px #666666;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    text-align:    center;
+    text-decoration: none;
+        :hover {
+            cursor: pointer;
+        }
+}
+
+.first_wrapper {
+    display: flex;    
+}
+
+.first_photo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.second {
+    padding-top: 50px;
+    height: 500px;
+    background: url(/img/cool-background.png);
+}
+
+.second_title {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+
+.second_benefits {
+    display: flex;
+    padding-top: 30px;
+}
+
+.benefits_item_box {
+    background: rgb(187, 187, 187);
+    border-radius: 15px;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+.second_benefits_item {
+    width: 100%;
+}
